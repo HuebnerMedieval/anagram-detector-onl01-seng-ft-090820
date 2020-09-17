@@ -10,6 +10,7 @@ class Anagram
   def match(array)
     array.map! do |word|
       word.split!("").sort!
+      
   end
   
 end
